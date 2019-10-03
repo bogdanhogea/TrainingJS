@@ -3,9 +3,9 @@
 
 
 @font-face {
-  font-family: 'julius_sans_oneregular';
-  src: url('/Curs08/Ex02/Fonts/juliussansone-regular-webfont.woff') format('woff2'),
-       url('/Curs08/Ex02/Fonts/juliussansone-regular-webfont.woff2') format('woff');
+  font-family: 'julius';
+  src: url('/Curs08/Ex02/Fonts/juliussansone-regular-webfont.woff') format('woff'),
+       url('/Curs08/Ex02/Fonts/juliussansone-regular-webfont.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 
@@ -13,8 +13,8 @@
 
 @font-face {
   font-family: 'robotoregular';
-  src: url('/Curs08/Ex02/Fonts/roboto-regular-webfont.woff') format('woff2'),
-       url('/Curs08/Ex02/Fonts/roboto-regular-webfont.woff2') format('woff');
+  src: url('/Curs08/Ex02/Fonts/roboto-regular-webfont.woff') format('woff'),
+       url('/Curs08/Ex02/Fonts/roboto-regular-webfont.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 
@@ -22,8 +22,8 @@
 
 @font-face {
   font-family: 'robotoitalic';
-  src: url('/Curs08/Ex02/Fonts/roboto-italic-webfont.ttf') format('woff2'),
-       url('/Curs08/Ex02/Fonts/roboto-italic-webfont.woff2') format('woff');
+  src: url('/Curs08/Ex02/Fonts/roboto-italic-webfont.ttf') format('woff'),
+       url('/Curs08/Ex02/Fonts/roboto-italic-webfont.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 
@@ -31,15 +31,78 @@
 
 @font-face {
   font-family: 'robotobold';
-  src: url('/Curs08/Ex02/Fonts/roboto-bold-webfont.woff') format('woff2'),
-       url('/Curs08/Ex02/Fonts/roboto-bold-webfont.woff2') format('woff');
+  src: url('/Curs08/Ex02/Fonts/roboto-bold-webfont.woff') format('woff'),
+       url('/Curs08/Ex02/Fonts/roboto-bold-webfont.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 
 }
 
-body {
+/* body {
 
   font-family: "robotoitalic"; 
+
+} */
+
+h1 {
+
+  color: red;
+  font-family: "julius";
+  font-size: 35px; 
+
+}
+
+p b {
+
+  font-family: "robotobold";
+
+}
+
+body {
+
+  font-family: "robotoregular";
+
+}
+
+i {
+
+  font-family: "robotoitalic";
+  color: blue;
+  text-decoration: line-through;
+  
+}
+
+ol a {
+
+  font-family: "robotobold";
+
+}
+
+ ul li {
+
+ font-family: "julius";
+ line-height: 25px; 
+
+}
+
+
+h3 {
+
+  color: green;
+  font-family: "robotobold";
+}
+
+h2 {
+
+  font-family: "julius";
+  color: purple;
+  text-decoration: underline;
+  font-size: 35px;
+
+}
+
+p {
+
+  line-height: 23px;
 
 }
