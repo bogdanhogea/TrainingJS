@@ -1,0 +1,54 @@
+body{
+
+  padding-top: 100px;
+
+
+}
+
+.legend {
+
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: brown;
+  background-color: blue;
+
+}
+
+.fieldset {
+
+border: 1px solid red;
+background-color: gray;
+position: absolute;
+top: -10px;
+left: 25px;
+
+
+}
+
+.container {
+
+position: relative;
+border: 1px solid;
+padding: 5px;
+
+}
+
+.sup {
+
+font-size: 10px;
+position: relative;
+top: -5px;
+
+}
+
+.fixed {
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: green;
+
+
+
+}
