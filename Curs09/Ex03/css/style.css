@@ -9,3 +9,28 @@
   float: left;
 }
 
+.orientation-left img
+
+{
+
+  float: left;
+
+
+}
+
+.orientation-right img {
+
+  float: right;
+
+}
+
+.card .float-left {
+
+  float: none;
+
+
+}
+
+
+
+/* Pentru ultimul card, creaza un selector care sa aplice float: none pe imaginea pisicii, astfel incat imaginea sa se intoarca in flowul normal. */
