@@ -1,0 +1,56 @@
+.my-first-list a {
+display: block;
+margin: 5px 0;
+}
+
+.my-first-list a::before {
+  content: " ";
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  background-color: purple;
+  margin-right: 7px;
+  transform: rotate(45deg);
+}
+
+.my-first-list a::after {
+  content: " ";
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  background-color: red;
+  margin-left: 7px;
+  margin-right: 7px;
+  border-radius: 20px;
+  transform: skew(10deg);
+}
+
+.my-second-list a {
+  display: block;
+  margin: 5px 0;
+
+}
+
+.my-second-list a::before{
+  content: " ";
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  background-color: yellow;
+  margin-left: 7px;
+  margin-right: 7px;
+  border-radius: 20px;
+  transform: skew(-35deg);
+}
+
+.my-second-list a::after {
+  content: " ";
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  background-color: purple; 
+  margin-left: 7px;
+  margin-right: 7px;
+  transform: skew(10deg);
+}
+
