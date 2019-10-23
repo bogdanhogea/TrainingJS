@@ -510,3 +510,74 @@ margin: 0 5px;
   text-align: right;
 }
 
+.content-header {
+  margin: 50px 0 0 0;
+
+}
+
+.filter-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.filter-form select {
+
+  height: 50px;
+  border: 1px solid gray;
+  border-radius: 50px;
+  padding: 0 20px;
+
+}
+
+.filter-form button[type="submit"] {
+  background-color: #FF6B6B;
+  height: 50px;
+  border: 0;
+  border-radius: 30px;
+  text-transform: uppercase;
+  padding: 0 20px; 
+  color: white;
+}
+
+.filter-swatches li {
+  display: inline-block;
+}
+
+.filter-fit-finder a {
+  display: inline-block;
+  padding-left: 30px;
+  background: url('../images/decorations/fit-finder.jpg') no-repeat left center;
+  line-height: 25px;
+}
+
+.filter-fit-finder span {
+  font-family: "robotobold";
+  color: #FF6B6B;
+}
+
+.swatch {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #8b8b8b;
+  display: inline-block;
+  border-radius: 40px;
+  overflow: hidden;
+  text-indent: -10000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.swatch::after {
+  display: block;
+  content: " ";
+  width: 45px;
+  height: 45px;
+}
+
+.swatch-01::after {
+  background: url('../images/swatches/70yz9xts.jpg') no-repeat center;
+}
